@@ -72,7 +72,7 @@ If you already have an IAM user who has AdministratorAccess, skip this step and 
 
     ![0-2-Cloud9-Setup6](/static/0-Prerequisites/0-2-Cloud9-Setup/0-2-Cloud9-Setup6.png)
 
-7. In **Trusted entity type**, select **AWS service** and **EC2** in **Use case**. Click **Next**.
+7. Click **Create role**. In **Trusted entity type**, select **AWS service** and **EC2** in **Use case**. Click **Next**.
 
     ![0-2-Cloud9-Setup7](/static/0-Prerequisites/0-2-Cloud9-Setup/0-2-Cloud9-Setup7.png)
 
@@ -88,7 +88,7 @@ If you already have an IAM user who has AdministratorAccess, skip this step and 
 
     ![0-2-Cloud9-Setup10](/static/0-Prerequisites/0-2-Cloud9-Setup/0-2-Cloud9-Setup10.png)
 
-11. Now select **eks-cloud9-admin** from the drop-down list and **Update IAM role** to attach it to Cloud9 instance. 
+11. Click the refresh button and select **eks-cloud9-admin** you just created from the drop-down list and **Update IAM role** to attach it to Cloud9 instance. 
 
     ![0-2-Cloud9-Setup11](/static/0-Prerequisites/0-2-Cloud9-Setup/0-2-Cloud9-Setup11.png)
 
@@ -149,12 +149,14 @@ for command in kubectl jq envsubst aws
 rm -vf ${HOME}/.aws/credentials
 ```
 
-18. Run the following command line to make sure that the IAM user or role whose credentials are used to call the operation.
+18. Run the following command line to make sure that the IAM user or role whose credentials are used to call the operation. **eks-cloud9-admin** was used as IAM role for this time. 
 
 ```
 aws sts get-caller-identity --region ap-northeast-2 --query Arn | grep eks-cloud9-admin -q && echo "IAM role valid" || echo "IAM role NOT valid"
 aws sts get-caller-identity --region ap-northeast-2
 ```
+
+
 
 **[Sample output]**
 
@@ -214,7 +216,7 @@ secret_key     ****************l9iC         iam-role
     region           ap-northeast-2              env    ['AWS_REGION', 'AWS_DEFAULT_REGION']
 ```
 
-20. Generate SSH key and use **eksworkshop** as its name. 
+20. Generate SSH key and use **eksworkshop** as its name with no passphrase only for this workshop. 
 
 ```
 cd ~/environment/
@@ -436,7 +438,4 @@ cat ~/.kube/config
 ```
 
 > [!NOTE]
-> You have successfuly compelted all prerequisites and click [EKS 비용 시각화](../1-EKS-Cost-Visualization/index.md) to continue. :+1: 
-
-
-Click [Cost Visualization for Amazon EKS](../1-EKS-Cost-Visualization/index.md) to start the next lab.
+> **Congratulations!** You have successfuly compelted all prerequisites and click [Cost Visualization for Amazon EKS](../1-EKS-Cost-Visualization/index.md) to continue. :+1: 

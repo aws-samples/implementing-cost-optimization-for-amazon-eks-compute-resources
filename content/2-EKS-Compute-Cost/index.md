@@ -30,6 +30,7 @@ In this lab, we will walk you through **four hypothetical customer scenarios** t
 
 (1) Set environment variables.
 ```
+export CLUSTER_NAME="eks-cost-optimization"
 export CLUSTER_ENDPOINT="$(aws eks describe-cluster --name ${CLUSTER_NAME} --query "cluster.endpoint" --output text)"
 export KARPENTER_IAM_ROLE_ARN="arn:aws:iam::${ACCOUNT_ID}:role/${CLUSTER_NAME}-karpenter"
 ```
@@ -102,13 +103,13 @@ Currently, Octank's **Amazon EKS clusters** separate development and operations,
 > **Spot Instances Checklist Interview** 
 > **[Spot Instances best practices in general]**
 > 1. Is your applciation **stateless**? Yes
-> 2. Is your application fault tolerant? Yes
-> 3. Is the workload tightly coupled across nodes? No
+> 2. Is your application **fault tolerant**? Yes
+> 3. Is the workload **tightly coupled across nodes**? No
 > 
 > **[Spot Instances best practices for containerized workload]**
-> 1. Is the controller type StatefulSet? No
-> 2. Is the minimum number of replicas at least 2? Yes
-> 3. Does it use local storage (such as emptyDir)? No
+> 1. Is the controller type **StatefulSet**? No
+> 2. Is the **minimum number of replicas**v at least 2? Yes
+> 3. Does it use **local storage (such as emptyDir)**? No
 
 
 See the details you need to consider when [using Amazon EC2 Spot Instances with Karpenter] (https://aws.amazon.com/blogs/containers/using-amazon-ec2-spot-instances-with-karpenter/) on an **Amazon EKS cluster**.
