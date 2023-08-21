@@ -44,7 +44,7 @@ In this lab, we walk you through visualizing your EKS costs and provide practica
 * Duration: ~3 hours
 
 > [!IMPORTANT]
-> Use **ap-northeast-2** region where we tested and some manifest files have dependencies with a region. 
+> Use **ap-northeast-2 (Seoul)** region where we tested and some manifest files have dependencies with a region. 
 
 # Survey
 

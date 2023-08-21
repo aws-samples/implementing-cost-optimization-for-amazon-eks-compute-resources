@@ -48,6 +48,9 @@ If you already have an IAM user who has AdministratorAccess, skip this step and 
 
 # 3. Prepare AWS Cloud9 IDE
 
+> [!IMPORTANT]
+> Use **ap-northeast-2 (Seoul)** region where we tested and some manifest files have dependencies with a region. 
+
 1. Search for Cloud9 and click **Create environment**.
 
     ![0-2-Cloud9-Setup1](/static/0-Prerequisites/0-2-Cloud9-Setup/0-2-Cloud9-Setup1.png)
