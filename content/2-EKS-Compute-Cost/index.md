@@ -818,9 +818,7 @@ rm ~/environment/2-compute-cost/*
 
 # 2-5. Reduce unnecessary computing resources using Karpenter's workload consolidation
 
-Octank사의 클라우드 엔지니어인 여러분은 **Amazon EKS** 환경에서 노드가 scale-out한 이후, **Pod**들이 종료되어 각 노드의 자원 활용율이 낮음에도 불구하고, 노드 상 실행되는 **Pod**가 존재하여 노드가 **Scale-in** 하지 못하는 **Bin Packing** 현상을 개선하여 **Amazon EKS 클러스터**의 비용을 절감하고자 합니다.
-
-A cloud engineer at Octank found outKarpenter would only de-provision worker nodes that were devoid of non-daemonset pods. Over time, as workloads got rescheduled, some worker nodes could become underutilized. 
+A cloud engineer at Octank found out Karpenter would only de-provision worker nodes that were devoid of non-daemonset pods. Over time, as workloads got rescheduled, some worker nodes could become underutilized. 
 
 Workload consolidation aims to further realize the vision of Karpenter’s efficient and cost-effective auto scaling by consolidating workloads onto the fewest, least-cost instances, while still adhering to the pod’s resource and scheduling constraints. Workload consolidation can be enabled in Karpenter’s `Provisioner Custom Resource Definition (CRD)`.
 
@@ -1146,7 +1144,7 @@ helm uninstall -n karpenter karpenter
 aws cloudformation delete-stack --stack-name Karpenter-$CLUSTER_NAME
 ```
 
-3. Delete all directories in Cloud9 터미널 상에서 이번 모듈에서 사용했던 디렉토리를 삭제합니다.
+3. Delete all directories in Cloud9.
 
 ```
 rm -rf ~/environment/

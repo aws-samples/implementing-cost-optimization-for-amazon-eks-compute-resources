@@ -882,8 +882,7 @@ Confirm that the data sources are added to the **Provisioned data sources** sect
 
 ![1-3-Create-Dashboard25](/static/1-EKS-Cost-Visualization/1-3-Create-Dashboard/1-3-Create-Dashboard25.png)
 
-35. 화면 하단 **thanos** 드롭다운에서 **Prometheus**를 선택한 후, **Import**를 클릭하면 아래와 같이 **Kubecost**에서 확인했던 비용 지표들을 확인할 수 있습니다.
-Select Prometheus from the **thanos** drop down list at the bottom of the screen, click **Import**.
+35. Select Prometheus from the **thanos** drop down list at the bottom of the screen, click **Import**.
 
 ![1-3-Create-Dashboard26](/static/1-EKS-Cost-Visualization/1-3-Create-Dashboard/1-3-Create-Dashboard26.png)
 
