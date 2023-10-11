@@ -1,7 +1,7 @@
 # Implementing cost optimization for Amazon EKS Compute Resources
 
 
-This lab is provided as part of **[AWS Innovate For Every Application Edition](https://aws.amazon.com/events/aws-innovate/apj/for-every-app/)**
+This lab is provided as part of **[AWS Innovate - Modern Applications](https://aws.amazon.com/events/aws-innovate/apj/modern-apps/)**
 
 ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
@@ -48,7 +48,7 @@ In this lab, we walk you through visualizing your EKS costs and provide practica
 
 # Survey
 
-Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_1U4cxprfqLngWGy?Session=HOL12). Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits 1, 2 & 3. AWS credits will be sent via email by September 29, 2023.
+Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04). Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits 1, 2 & 3. AWS credits will be sent via email by September 29, 2023.
 Note: Only registrants of AWS Innovate Online Conference who complete the surveys will receive a gift code for USD25 in AWS credits via email.
 
 <sup>1</sup>AWS Promotional Credits Terms and conditions apply: https://aws.amazon.com/awscredits/ 
@@ -57,4 +57,4 @@ Note: Only registrants of AWS Innovate Online Conference who complete the survey
 
 <sup>3</sup>Participants will be required to provide their business email addresses to receive the gift code for AWS credits.
 
-Click [Survey Link](https://amazonmr.au1.qualtrics.com/jfe/form/SV_1U4cxprfqLngWGy?Session=HOL12).
+Click [Survey Link](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04).
