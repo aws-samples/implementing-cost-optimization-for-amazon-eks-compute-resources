@@ -5,7 +5,7 @@ This lab is provided as part of **[AWS Innovate - Modern Applications](https://a
 
 ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
-ℹ️ Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04) at the end of the lab. Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits.
+ℹ️ Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04) at the end of the lab. Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits by November 30, 2023.
 
 ## Introduction
 [Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
