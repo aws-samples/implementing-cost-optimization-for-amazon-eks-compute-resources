@@ -5,7 +5,6 @@ This lab is provided as part of **[AWS Innovate - Modern Applications](https://a
 
 ℹ️ You will run this lab in your own AWS account. Please follow directions at the end of the lab to remove resources to avoid future costs.
 
-ℹ️ Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04) at the end of the lab. Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits by November 30, 2023.
 
 ## Introduction
 [Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. 
@@ -48,15 +47,3 @@ In this lab, we walk you through visualizing your EKS costs and provide practica
 > [!IMPORTANT]
 > Use **ap-northeast-2 (Seoul)** region where we tested and some manifest files have dependencies with a region. 
 
-# Survey
-
-Let us know what you thought of this session and how we can improve the presentation experience for you in the future by completing [this event session poll](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04). Participants who complete the surveys from AWS Innovate Online Conference will receive a gift code for USD25 in AWS credits 1, 2 & 3. AWS credits will be sent via email by November 30, 2023.
-Note: Only registrants of AWS Innovate Online Conference who complete the surveys will receive a gift code for USD25 in AWS credits via email.
-
-<sup>1</sup>AWS Promotional Credits Terms and conditions apply: https://aws.amazon.com/awscredits/ 
-
-<sup>2</sup>Limited to 1 x USD25 AWS credits per participant.
-
-<sup>3</sup>Participants will be required to provide their business email addresses to receive the gift code for AWS credits.
-
-Click [Survey Link](https://amazonmr.au1.qualtrics.com/jfe/form/SV_5BWPHDlxVcsRbo2?Session=HOL04).
